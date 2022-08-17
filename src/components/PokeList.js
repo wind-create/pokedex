@@ -27,7 +27,7 @@ function PokeList() {
     };
     useEffect(() => {
         getAllPokemons();
-    }, []);
+    });
 
   return (
     <div className='app-container'>
